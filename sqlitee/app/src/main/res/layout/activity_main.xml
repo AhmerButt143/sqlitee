@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="SEARCH CONTACTS"
+       android:id="@+id/btnsearch"
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="40dp"
+       android:textSize="20dp"
+
+       />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ADD CONTACTS"
+    android:id="@+id/btnadd"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="40dp"
+    android:textSize="20dp"
+
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE CONTACTS"
+        android:id="@+id/btndelete"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE CONTACTS"
+        android:id="@+id/btnupdate"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+
+        />
+</RelativeLayout>
